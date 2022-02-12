@@ -5,3 +5,6 @@ I will be using a separate branch for each module of the project, and merging it
 
 ### Currently Activate Branches:
 * Main
+
+## Data Schema
+![alt text](https://github.com/priorpeak/medical-records-system/blob/main/Medical%20Records%20System%20Data%20Schema.png?raw=true)
