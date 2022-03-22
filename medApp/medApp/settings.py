@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1o90fdt@rs%=&8058438c#re!8ngh^kukvf&qix(#owdn)jz-v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.22.63.151']
+ALLOWED_HOSTS = ['3.21.164.160']
 
 
 # Application definition
@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapi.apps.MyapiConfig',
     'rest_framework',
-    'chat'
+    'chat',
+    'django_q'
 ]
 
 MIDDLEWARE = [
