@@ -4,7 +4,8 @@ import queue
 import os
 
 sys.path.insert(1, './medApp/myapi')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'medApp.settings')
+sys.path.insert(2, './medApp')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
 
 def test_queue():
     json_payload = {
